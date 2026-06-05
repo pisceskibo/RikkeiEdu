@@ -1,0 +1,26 @@
+# Bài 1: Hệ thống quản lý giỏ hàng Shopee
+
+## Xác định bài toán:
++ INPUT: cart_items = [
+         [ID1, name1, count1, cost1],
+         [ID1, name1, count1, cost1],
+         ...
+        ]
++ OUTPUT: Chương trình hiển thị menu CLI gồm các chức năng.
+
+## Các chức năng:
+1. Xem chi tiết giỏ hàng theo định dạng và tổng tiền:
++ In danh sách sản phẩm theo bảng trực quan
++ Hiện thị tổng số lượng sản phẩm và tổng tiền trong giỏ hàng =>  sum, +=
+
+2. Thêm sản phẩm mới hoặc tăng số lượng:
++ Sản phẩm đã tồn tại => cộng dồn số lượng mới => +=
++ Sản phẩm chưa tồn tại => new_product = [Mã, Tên, Số lượng, Đơn giá] => append()
+
+3. Cập nhập số lượng sản phẩm:
++ Nhập mã sản phẩm và số lượng mới cần đổi
++ Tìm kiếm theo mã (nếu có thì update)
+
+4. Xóa sản phẩm trong giỏ hàng:
++ Nhập mã sản phẩm muốn xóa
++ Tìm và xóa sản phẩm đó

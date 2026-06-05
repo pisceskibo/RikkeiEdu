@@ -1,0 +1,18 @@
+# Bài 2: Hệ thống quản lý danh sách phát nhạc
+
+1. Thêm bài hát vào danh sách:
++ Thêm vào cuối danh sách => .append(new_music)
++ Thêm vào vị trí cụ thể => .insert(index, new_music)
+
+2. Xem danh sách phát:
+=> Sử dụng vòng lặp for/while/enumerate để duyệt
+
+3. Xóa bài hát khỏi danh sách:
++ Xóa theo tên bài hát => .remove(name_music)
++ Xóa theo số thứ tự => .pop(index)
+
+4. Sắp xếp và trích xuất danh sách:
++ Hiện thị danh sách phát theo bảng chữ cái => .sort()
++ Hiện thị 3 bài hát đầu tiên => list[:3]
+
+5. Thoát chương trình => break
