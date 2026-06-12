@@ -1,0 +1,2 @@
+Chuỗi: split(), join(), replace()
+List: sort(), lst[::-1]
