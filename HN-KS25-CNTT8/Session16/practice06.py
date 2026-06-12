@@ -1,8 +1,17 @@
-# filter(function, iterable)
-numbers = [1, 2, 3, 4, 5, 6, 7]
-searched_numbers = list(filter(lambda i : i % 2 == 1, numbers))
-print(searched_numbers)
+# Sắp xếp các phần tử trong mảng
+"""
+array.sort(reverse=False/True)
+"""
+# numbers = [1, 5, 2, 7, 0, 8, 10]
+# numbers.sort(reverse=True)      # Phương thức
+# print(numbers)
 
-"""
-map (thay thế cho def), filter (tìm kiếm) => dùng giống nhau
-"""
+# Đảo ngược phần tử trong mảng
+numbers = [1, 5, 2, 7, 0, 8, 10]
+
+## Cách 1:
+numbers.reverse()
+print(numbers)
+
+## Cách 2: (nên nhớ)
+print(numbers[::-1])

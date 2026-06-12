@@ -7,5 +7,4 @@
 def get_all_student(name="Minh", age=19, school="PTIT", *args):
     pass
 
-
 get_all_student(age=20, name="Ninh", school="VNU")
