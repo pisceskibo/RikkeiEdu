@@ -22,8 +22,9 @@ def divide_numbers(a, b):
 
     print("CHương trình thành công ngon lành")
 
-divide_numbers(10, 0)
-
 """
 Bình thường làm bài => try và except tương ứng
 """
+
+if __name__ == "__main__":
+    divide_numbers(10, 0)
